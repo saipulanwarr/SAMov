@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".DetailActivity"></activity>
+<!--        <activity android:name=".PilihBangkuActivity"></activity>-->
+        <activity android:name=".DetailActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpPhotoscreen" />
         <activity android:name=".SignUp" />
@@ -17,7 +18,7 @@
         <activity android:name=".onboarding.OnboardingThree" />
         <activity android:name=".onboarding.OnboardingTwo" />
         <activity android:name=".onboarding.OnboardingOne" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".PilihBangkuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
