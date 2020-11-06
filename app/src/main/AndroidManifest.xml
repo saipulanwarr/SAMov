@@ -21,7 +21,7 @@
         <activity android:name=".sign.SignIn" />
         <activity android:name=".onboarding.OnboardingThree" />
         <activity android:name=".onboarding.OnboardingTwo" />
-        <activity android:name=".onboarding.OnboardingOne" />
+        <activity android:name=".onboarding.OnboardingOneActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
