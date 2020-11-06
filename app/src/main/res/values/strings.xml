@@ -27,4 +27,6 @@
     <string name="when">When</string>
     <string name="datetime">Date and Time</string>
     <string name="cinema">Cinema</string>
+    <string name="simpan_data">Simpan Data Baru</string>
+    <string name="edit_profile">Edit Profile</string>
 </resources>
