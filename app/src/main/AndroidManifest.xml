@@ -19,8 +19,8 @@
         <activity android:name=".sign.SignUpPhotoscreen" />
         <activity android:name=".sign.SignUp" />
         <activity android:name=".sign.SignIn" />
-        <activity android:name=".onboarding.OnboardingThree" />
-        <activity android:name=".onboarding.OnboardingTwo" />
+        <activity android:name=".onboarding.OnboardingThreeActivity" />
+        <activity android:name=".onboarding.OnboardingTwoActivity" />
         <activity android:name=".onboarding.OnboardingOneActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

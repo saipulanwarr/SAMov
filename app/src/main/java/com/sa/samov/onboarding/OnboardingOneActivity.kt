@@ -13,7 +13,7 @@ class OnboardingOneActivity : AppCompatActivity() {
         setContentView(R.layout.activity_onboarding_one)
 
         btn_home.setOnClickListener{
-            var intent = Intent(this@OnboardingOneActivity, OnboardingTwo::class.java);
+            var intent = Intent(this@OnboardingOneActivity, OnboardingTwoActivity::class.java);
             startActivity(intent);
         }
 
