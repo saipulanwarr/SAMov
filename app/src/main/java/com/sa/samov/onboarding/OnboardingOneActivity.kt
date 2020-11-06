@@ -20,6 +20,7 @@ class OnboardingOneActivity : AppCompatActivity() {
         btn_daftar.setOnClickListener{
             var intent = Intent(this@OnboardingOneActivity, SignIn::class.java);
             startActivity(intent);
+            finishAffinity();
         }
     }
 }
