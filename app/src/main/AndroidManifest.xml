@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-<!--        <activity android:name=".EditProfileActivity"></activity>-->
-         <activity android:name=".CheckoutActivity"></activity>
+        <activity android:name=".MyWalletActivity"></activity>
+         <activity android:name=".EditProfileActivity"></activity>
+        <activity android:name=".CheckoutActivity" />
         <activity android:name=".PilihBangkuActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".HomeActivity" />
@@ -20,7 +21,7 @@
         <activity android:name=".onboarding.OnboardingThree" />
         <activity android:name=".onboarding.OnboardingTwo" />
         <activity android:name=".onboarding.OnboardingOne" />
-        <activity android:name=".EditProfileActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
