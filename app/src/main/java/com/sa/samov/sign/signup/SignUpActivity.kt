@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.database.*
 import com.sa.samov.R
-import com.sa.samov.sign.SignUpPhotoscreen
 import com.sa.samov.sign.signin.User
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
@@ -72,7 +71,7 @@ class SignUpActivity : AppCompatActivity() {
                 if(user == null){
                     mDatabaseReference.child(sUsername).setValue(data)
 
-                    var gotoSignUpPhoto = Intent(this@SignUpActivity, SignUpPhotoscreen::class.java).putExtra("nama", data?.nama)
+                    var gotoSignUpPhoto = Intent(this@SignUpActivity, SignUpPhotoscreenActivity::class.java).putExtra("nama", data?.nama)
                     startActivity(gotoSignUpPhoto)
                 }else{
                     Toast.makeText(this@SignUpActivity, "User sudah digunakan", Toast.LENGTH_LONG).show()
