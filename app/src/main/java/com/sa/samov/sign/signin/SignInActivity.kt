@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
 import com.sa.samov.HomeActivity
 import com.sa.samov.R
-import com.sa.samov.sign.SignUp
+import com.sa.samov.sign.signup.SignUpActivity
 import com.sa.samov.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
@@ -50,7 +50,7 @@ class SignInActivity : AppCompatActivity() {
         }
 
         btn_daftar.setOnClickListener {
-            var intent = Intent(this@SignInActivity, SignUp::class.java)
+            var intent = Intent(this@SignInActivity, SignUpActivity::class.java)
             startActivity(intent)
         }
     }
