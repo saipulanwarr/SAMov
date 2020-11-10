@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
-import com.sa.samov.HomeActivity
+import com.sa.samov.home.HomeActivity
 import com.sa.samov.R
 import com.sa.samov.sign.signup.SignUpActivity
 import com.sa.samov.utils.Preferences
