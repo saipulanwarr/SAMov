@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.sa.samov.CheckoutActivity
 import com.sa.samov.R
 import com.sa.samov.model.Checkout
 import com.sa.samov.model.Film
@@ -58,6 +57,11 @@ class PilihBangkuActivity : AppCompatActivity() {
                 val data = Checkout("A4", "7000")
                 dataList.add(data)
             }
+        }
+
+        btn_home.setOnClickListener {
+            var intent = Intent(this@PilihBangkuActivity, CheckoutActivity::class.java).putExtra("data", dataList)
+            startActivity(intent)
         }
     }
 
