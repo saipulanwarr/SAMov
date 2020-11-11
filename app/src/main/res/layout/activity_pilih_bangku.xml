@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlue"
-    tools:context=".PilihBangkuActivity">
+    tools:context=".checkout.PilihBangkuActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -16,9 +16,11 @@
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_pink"
         android:text="@string/beli_tiket"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible"/>
 
     <TextView
         android:id="@+id/textView"
@@ -53,11 +55,11 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kursi"
         app:srcCompat="@drawable/ic_path" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/tv_kursi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -110,6 +112,7 @@
             android:layout_height="match_parent" />
 
         <ImageView
+            android:id="@+id/a3"
             android:src="@drawable/shape_line_blue_grey"
             android:layout_weight="1"
             android:layout_marginRight="20dp"
@@ -117,6 +120,7 @@
             android:layout_height="match_parent" />
 
         <ImageView
+            android:id="@+id/a4"
             android:src="@drawable/shape_line_blue_grey"
             android:layout_weight="1"
             android:layout_width="0dp"
@@ -133,7 +137,7 @@
         android:layout_marginBottom="24dp"
         android:text="Empty"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -146,7 +150,7 @@
         android:drawableLeft="@drawable/ic_rectangle_booked"
         android:text="Booked"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintStart_toEndOf="@+id/textView18" />
 
     <TextView
@@ -159,7 +163,7 @@
         android:layout_marginBottom="24dp"
         android:text="Selected"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintStart_toEndOf="@+id/textView19" />
 
 
